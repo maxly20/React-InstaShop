@@ -1,0 +1,281 @@
+body {
+  background-color: rgb(234, 237, 237);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+* {
+  margin: 0;
+}
+/* ==========================
+          HEADER 
+ ========================== */
+.header {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.header__logo {
+  width: 100px;
+  margin: 0 20px;
+  margin-top: 18px;
+  object-fit: contain;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+.header__optionLineOne {
+  font-size: 10px;
+}
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+}
+.header__basketCount {
+  margin: 0 10px;
+}
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+.header__search {
+  display: flex;
+  flex: 1;
+}
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.header__searchIcon {
+  background-color: #cd9042;
+  padding: 5px;
+  height: 22px !important;
+}
+
+/* ==========================
+          HOME
+ ========================== */
+.home {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home__image {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -280px;
+}
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin: 0 5px;
+}
+/* ==========================
+          PRODUCT
+ ========================== */
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  max-height: 400px;
+  min-width: 100px;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+.product__info {
+  height: 100px;
+  margin-bottom: 50px;
+}
+.product__rating {
+  display: flex;
+}
+.product__price {
+  margin-top: 5px;
+}
+.product > img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.product > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+}
+/* ==========================
+          LOGIN
+ ========================== */
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login__container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+.login__container > h1 {
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+.login__container > form > h5 {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 13px;
+}
+.login__container > form > input {
+  margin-bottom: 5px;
+  height: 30px;
+  background-color: white;
+  width: 98%;
+  border-radius: 3px;
+}
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login__logo {
+  margin: 20px 0;
+  width: 100px;
+  object-fit: contain;
+}
+.login__signInButton {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.login__signInButton:hover {
+  background-color: #f5ce6b;
+}
+.login__registerButton {
+  border: 1px solid;
+  border-color: lightgray;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.login__registerButton:hover {
+  background-color: #fffefe;
+}
+
+/* ==========================
+          CHECKOUT
+ ========================== */
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  max-height: max-content;
+}
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+/* ==========================
+          CHECKOUT PRODUCTS
+ ========================== */
+.checkoutProduct {
+  display: flex;
+  margin: 20px 0;
+}
+.checkoutProduct__image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
+.checkoutProduct__info {
+  padding-left: 20px;
+}
+.checkoutProduct__title {
+  font-size: 17px;
+  font-weight: 800;
+}
+.checkoutProduct__rating {
+  display: flex;
+}
+.checkoutProduct__info > button {
+  background: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  margin-top: 10px;
+  color: #111;
+}
+/* ==========================
+          SUBTOTAL
+ ========================== */
+ .subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.subtotal__gift {
+  display: flex;
+  align-items: center;
+}
+.subtotal__gift > input {
+  margin-right: 5px;
+}
+.subtotal > button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width:  100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
