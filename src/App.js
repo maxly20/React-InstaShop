@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Components/Home';
+import Footer from './Components/Footer';
 import Checkout from './Components/Checkout';
 import Login from './Components/Login';
 import { useStateValue } from './StateProvider';
@@ -42,13 +43,16 @@ function App() {
           <Route path='/checkout'>
             <Header />
             <Checkout />
+            <Footer />
           </Route>
           <Route path='/login'>
             <Login />
+            <Footer />
           </Route>
           <Route path='/'>
             <Header />
             <Home />
+            <Footer />
           </Route>
         </Switch>
       </div>

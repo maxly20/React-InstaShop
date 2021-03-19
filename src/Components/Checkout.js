@@ -11,7 +11,7 @@ function Checkout() {
       <div className='checkout__left'>
         <img
           className='checkout__ad'
-          src='https://i.ibb.co/BLfVJ2j/checkout-banner2.jpg'
+          src='https://i.ibb.co/0QKMfB5/sales-payment-banner.jpg'
           alt='outlet ad'
         />
         {basket?.length === 0 ? (

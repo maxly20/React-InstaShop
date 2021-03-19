@@ -21,7 +21,7 @@ function Header() {
       <Link to='/'>
         <img
           className='header__logo'
-          src='https://i.ibb.co/QQQ0y4Z/instashop-logo.png'
+          src='https://i.ibb.co/9Tz8wVY/logoleaf.png'
           alt='logo'
         />
       </Link>
