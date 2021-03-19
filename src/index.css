@@ -19,7 +19,7 @@ code {
           HEADER 
  ========================== */
 .header {
-  background-color: #131921;
+  background-color: #114554;
   display: flex;
   align-items: center;
   position: sticky;
@@ -39,7 +39,7 @@ code {
 .header__option {
   display: flex;
   flex-direction: column;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 .header__optionLineOne {
   font-size: 10px;
