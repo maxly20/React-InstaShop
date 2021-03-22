@@ -1,5 +1,10 @@
+# InstaShop
 
+An Ecommerce site with with LogIn and Cart Function, Built using React, React Context API, Firebase authentification.
 
+Deployed live at https://maxly-react-instashop.netlify.app
+
+![](SitePreview.jpg)
 
 ![](SitePreview.jpg)
 
