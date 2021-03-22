@@ -37,10 +37,10 @@ function Home() {
       <div className='home__row'>
         <Product
           id='123456789'
-          title='The Barefoot Investor: The Only Money Guide You Will Ever Need'
-          price={20}
+          title='Nintendo Switch Console Neon'
+          price={399}
           rating={5}
-          image={'https://i.ibb.co/KwSLJX5/home-row1-barefoot.jpg'}
+          image={'https://i.ibb.co/7WyXjpV/nintendo.jpg'}
         />
         <Product
           id='123456799'
@@ -53,10 +53,10 @@ function Home() {
       <div className='home__row'>
         <Product
           id='123456989'
-          title='Instant Pot Duo Nova Electric Pressure Cooker, 3L '
-          price={189}
+          title='Lg UN8100 UHD 75 inch Smart 4k TV with AI THINQ'
+          price={1795}
           rating={4}
-          image={'https://i.ibb.co/L0WvnS5/home-row3-pot.jpg'}
+          image={'https://i.ibb.co/7WyXjpV/nintendo.jpg'}
         />
         <Product
           id='123496789'
@@ -119,6 +119,29 @@ function Home() {
           price={549}
           rating={4}
           image={'https://i.ibb.co/qgtnVYD/ps5headphone.jpg'}
+        />
+      </div>
+      <div className='home__row'>
+        <Product
+          id='123488756989'
+          title='GoPro HERO9 Black 5K HyperSmooth 3.0 Action Cam'
+          price={629}
+          rating={4}
+          image={'https://i.ibb.co/KFKy116/gopro.jpg'}
+        />
+        <Product
+          id='1234988786789'
+          title='Dell XPS 15 15.6" Ultra HD Laptop (512GB)'
+          price={4099}
+          rating={4}
+          image={'https://i.ibb.co/BP2FDSD/dell.jpg'}
+        />
+        <Product
+          id='123456666999'
+          title='Himo Electric Bike Z20'
+          price={549}
+          rating={4}
+          image={'https://i.ibb.co/W6cQwnJ/bike.jpg'}
         />
       </div>
     </div>
