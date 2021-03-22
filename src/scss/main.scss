@@ -14,10 +14,12 @@ code {
 }
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* ==========================
-          HEADER 
- ========================== */
+            HEADER 
+   ========================== */
 .header {
   background-color: #114554;
   display: flex;
@@ -87,8 +89,8 @@ code {
   }
 }
 /* ==========================
-          HOME
- ========================== */
+            HOME
+   ========================== */
 .home {
   max-width: 1500px;
   margin-left: auto;
@@ -114,8 +116,8 @@ code {
   }
 }
 /* ==========================
-          PRODUCT
- ========================== */
+            PRODUCT
+   ========================== */
 .product {
   display: flex;
   flex-direction: column;
@@ -159,8 +161,8 @@ code {
   }
 }
 /* ==========================
-          LOGIN
- ========================== */
+            LOGIN
+   ========================== */
 .login {
   background-color: white;
   height: 100vh;
@@ -228,8 +230,8 @@ code {
 }
 
 /* ==========================
-          CHECKOUT
- ========================== */
+            CHECKOUT
+   ========================== */
 .checkout {
   display: flex;
   padding: 20px;
@@ -253,8 +255,8 @@ code {
   }
 }
 /* ==========================
-          CHECKOUT PRODUCTS
- ========================== */
+            CHECKOUT PRODUCTS
+   ========================== */
 .checkoutProduct {
   display: flex;
   margin: 20px 0;
@@ -282,8 +284,8 @@ code {
   color: #111;
 }
 /* ==========================
-          SUBTOTAL
- ========================== */
+            SUBTOTAL
+   ========================== */
 .subtotal {
   display: flex;
   flex-direction: column;
@@ -314,8 +316,8 @@ code {
 }
 
 /* ==========================
-          Footer
- ========================== */
+            Footer
+   ========================== */
 .footer {
   height: 10vh;
   width: 100vw;
