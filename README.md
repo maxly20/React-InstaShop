@@ -6,7 +6,6 @@ Deployed live at https://maxly-react-instashop.netlify.app
 
 ![](SitePreview.jpg)
 
-![](SitePreview.jpg)
 
 ## Getting Started with Create React App
 
