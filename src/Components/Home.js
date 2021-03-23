@@ -6,7 +6,7 @@ function Home() {
     <div className='home'>
       <img
         className='home__image'
-        src='https://i.ibb.co/0hVrR5P/ecommerce-header.jpg'
+        src='https://i.ibb.co/kGL3mGb/banner.jpg'
         alt='home banner'
       />
 

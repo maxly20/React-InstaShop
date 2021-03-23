@@ -21,7 +21,7 @@ code {
               HEADER 
      ========================== */
 .header {
-  background-color: #114554;
+  background-color: #676663;
   display: flex;
   align-items: center;
   position: sticky;
@@ -98,14 +98,15 @@ code {
 }
 .home__image {
   width: 100%;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
   z-index: -1;
-  margin-bottom: -280px;
+  /* margin-bottom: -280px; */
 }
 .home__row {
   display: flex;
   z-index: 1;
   margin: 0 5px;
+  /* flex-wrap: wrap; */
 }
 @media screen and (max-width: 600px) {
   .home__image {
