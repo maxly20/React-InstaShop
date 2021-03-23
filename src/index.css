@@ -206,6 +206,7 @@ code {
   margin: 20px 0;
   width: 100px;
   object-fit: contain;
+
 }
 .login__signInButton {
   background-color: #f0c14b;
