@@ -35,8 +35,8 @@ function Login() {
       <Link to='/'>
         <img
           className='login__logo'
-          src='https://i.ibb.co/7X8BQgF/amazon-logo.png'
-          alt='amazon_logo'
+          src='https://i.ibb.co/H4Z60HH/instashop-logo.png'
+          alt='instashop_logo'
         />
       </Link>
       <div className='login__container'>
@@ -59,11 +59,11 @@ function Login() {
           </button>
         </form>
         <p>
-          Instruction : Please input a random email account and random password
-          then click "Create your Amazon Account" !
+          Test Instruction : Please input a random email account and random password
+          then click "Create your InstaShop Account" !
         </p>
         <button onClick={register} className='login__registerButton'>
-          Create your Amazon Account
+          Create your InstaShop Account
         </button>
       </div>
     </div>
